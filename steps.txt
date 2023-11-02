@@ -1,0 +1,23 @@
+1. Initialized a git local repository by running: (git init) 
+2. Created the C++ code  
+3. Added the files using: (git add .)
+4. Commited the files using: (git commit -m "Created SUM" ) 
+5. Created SSH key using: ( ssh-keygen -t rsa -b 4096 -C ahmed.osama1982002@gmail.com ) 
+6. Added the new ssh key in github from the settings 
+7. Renamed the master branch to main 
+8. Linked the local repository to the remote repository using (git remote add origin git@github.com:AhmedOsama198/VCS-Assignment-Siemens-SW-Diploma.git)
+9. Pushed the changes to the origin branch using: (git push origin main) 
+10. Created new branch using: (git checkout -b branch1 ) 
+11. Added the average function in the main file
+12. Added the files using: (git add .)
+13. Commited the files using: (git commit -m "Created Average" ) 
+14. Pushed the changes to the origin branch using: (git push origin branch1)
+15. Returned to the main branch using (git checkout main) 
+16. Created new branch using: (git checkout -b branch2 ) 
+17. Added the Minimum function in the main file
+18. Added the files using: (git add .)
+19. Commited the files using: (git commit -m "Created Minimum" ) 
+20. Pushed the changes to the origin branch using: (git push origin branch2)
+21. Merged the first branch without any conflicts 
+22. Created a pull request for the second branch and solved the conflicts before merging by adding both average and minimum 
+23. Accepted the PULL request 
