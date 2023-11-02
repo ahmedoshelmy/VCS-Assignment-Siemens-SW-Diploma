@@ -11,9 +11,17 @@ int getSum(std::vector<int> & numbers){
     return sum;
 }
 
+double getAverage(std::vector<int> & numbers){
+    if(numbers.size() == 0) return 0 ; 
+    int sum = getSum(numbers); 
+    return 1.0 * sum / numbers.size();
+}
+
+
 int main(int argc, char **argv){
 
     std::vector<int> vector_example = {1,2,3,4,5,6,7,7,9,10} ; 
     std:: cout << getSum(vector_example) << std::endl; 
+    std:: cout << getAverage(vector_example) << std::endl; 
     
 }
